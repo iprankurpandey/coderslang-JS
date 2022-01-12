@@ -1,2 +1,3 @@
 import { rideSpeed,rideTime  } from "./constants.js"; //add imports and console.log
-console.log(rideSpeed - rideTime);
+const distance =  rideSpeed * rideTime
+console.log(distance);
