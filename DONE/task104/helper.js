@@ -1,6 +1,4 @@
-// Implement the function createSamples that takes a string and returns two samples of it, one in the lowercase
-
-// and another one in the uppercase.
+// Implement the function createSamples that takes a string and returns two samples of it, one in the lowercase and another one in the uppercase.
 
 // Samples should be combined, i.e. createSamples('HeLLo') should return the string 'helloHELLO'
 
@@ -15,8 +13,10 @@ const toUpperCase = (s) => {
 }
 
 export const createSamples = (s) => {
- toLowerCase(s)
- toUpperCase(s)
-  return s;
+let k = toLowerCase(s)
+let j=  toUpperCase(s)
+return k + j ;
 }
+
+
 
